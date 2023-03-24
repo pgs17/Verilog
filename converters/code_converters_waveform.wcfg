@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="code_converters_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="code_converters" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="239,533,014.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="239,534,334.001 ns"></ZoomEndTime>
+      <Cursor1Time time="239,533,470.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="96"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/code_converters/b1" type="logic">
+      <obj_property name="ElementShortName">b1</obj_property>
+      <obj_property name="ObjectShortName">b1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/code_converters/b2" type="logic">
+      <obj_property name="ElementShortName">b2</obj_property>
+      <obj_property name="ObjectShortName">b2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/code_converters/b3" type="logic">
+      <obj_property name="ElementShortName">b3</obj_property>
+      <obj_property name="ObjectShortName">b3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/code_converters/b4" type="logic">
+      <obj_property name="ElementShortName">b4</obj_property>
+      <obj_property name="ObjectShortName">b4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/code_converters/g1" type="logic">
+      <obj_property name="ElementShortName">g1</obj_property>
+      <obj_property name="ObjectShortName">g1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/code_converters/g2" type="logic">
+      <obj_property name="ElementShortName">g2</obj_property>
+      <obj_property name="ObjectShortName">g2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/code_converters/g3" type="logic">
+      <obj_property name="ElementShortName">g3</obj_property>
+      <obj_property name="ObjectShortName">g3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/code_converters/g4" type="logic">
+      <obj_property name="ElementShortName">g4</obj_property>
+      <obj_property name="ObjectShortName">g4</obj_property>
+   </wvobject>
+</wave_config>
