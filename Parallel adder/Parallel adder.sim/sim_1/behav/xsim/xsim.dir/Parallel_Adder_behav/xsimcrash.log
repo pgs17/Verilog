@@ -1,0 +1,21 @@
+Exception at PC 0x00007FFA8EFB9508
+Attemped to read address 0x0000000000000024
+Printing stacktrace...
+
+[0] (boost::serialization::singleton_module::unlock+0xeea8) [0x00007FFA8EFB9508]
+[1] (boost::serialization::singleton_module::unlock+0xeea8) [0x00007FFA8EFB9508]
+[2] (boost::serialization::singleton_module::unlock+0xc0ac) [0x00007FFA8EFB670C]
+[3] (boost::serialization::singleton_module::unlock+0xcc7b) [0x00007FFA8EFB72DB]
+[4] (boost::serialization::singleton_module::unlock+0xc518) [0x00007FFA8EFB6B78]
+[5] (boost::serialization::singleton_module::unlock+0xbc45) [0x00007FFA8EFB62A5]
+[6]  [0x00007FFA8EE0C91D]
+[7]  [0x00007FFA8EE16027]
+[8]  [0x00007FFA8EE18FFB]
+[9]  [0x00007FFA8EE184C3]
+[10] (iki_simulate_design+0x36) [0x00007FFA8EE6B2B6]
+[11]  [0x0000000000402532]
+[12]  [0x00000000004013E8]
+[13]  [0x000000000040151B]
+[14] (BaseThreadInitThunk+0x1d) [0x00007FFAD71A26BD]
+[15] (RtlUserThreadStart+0x28) [0x00007FFAD8FAA9F8]
+Done
