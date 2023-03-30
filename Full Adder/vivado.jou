@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Mar 30 16:53:39 2023
+# Process ID: 10136
+# Current directory: C:/Users/saran/OneDrive/Desktop/DSD LAB/adder circuits
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22316 C:\Users\saran\OneDrive\Desktop\DSD LAB\adder circuits\Full Adder.xpr
+# Log file: C:/Users/saran/OneDrive/Desktop/DSD LAB/adder circuits/vivado.log
+# Journal file: C:/Users/saran/OneDrive/Desktop/DSD LAB/adder circuits\vivado.jou
+# Running On: Pgs10, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 4, Host memory: 8362 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/saran/OneDrive/Desktop/DSD LAB/adder circuits/Full Adder.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source full_adder.tcl
+add_force {/full_adder/x} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/full_adder/y} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/full_adder/z} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+run all
+close_sim
